@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:drawable/btn_default_small"
+    android:layout_marginRight="@dimen/my_margin"
+    android:layout_marginLeft="@dimen/my_margin"
+    android:layout_marginTop="@dimen/my_margin">
+
+
+        <TextView
+            android:id="@+id/txt_nom_prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text1"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+
+    <TextView
+        android:id="@+id/txt_filiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text"/>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ListingEtudiant</string>
+
+    <string name="enrg_etud">ENREGISTRER UN ETUDIANT</string>
+    <string name="titre_activity_main">MainActivity</string>
+    <string name="title_activity_scrolling">DETAIL ETUDIANT</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="lieu_naiss">LIEU DE NAISSANCE :</string>
+    <string name="filiere">FILIERE :</string>
+    <string name="prenom">PRENOM :</string>
+    <string name="nom">NOM :</string>
+
+</resources>
