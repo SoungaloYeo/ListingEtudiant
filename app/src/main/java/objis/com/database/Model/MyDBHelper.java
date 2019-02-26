@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class  MyDBHelper extends SQLiteOpenHelper {
     private static final int VERSION = 1;
-    private static final String DATABASE_NAME = "etablissement_db";
+    private static final String DATABASE_NAME = "etablissement.db";
 
     public MyDBHelper(Context context) {
         super(context, DATABASE_NAME, null, VERSION);
@@ -19,8 +19,7 @@ public class  MyDBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDB) {
 
-        sqLiteDB.execSQL("CREATE TABLE "+ MyDBSchema.EtudiantTable.NAME+" ("+
-                MyDBSchema.EtudiantTable.MyColumns.id+" INTEGER PRIMARY KEY AUTOINCREMENT, "+
+        sqLiteDB.execSQL("CREATE TABLE "+ MyDBSchema.EtudiantTable.NAME+" ("+  MyDBSchema.EtudiantTable.MyColumns.id+" INTEGER PRIMARY KEY AUTOINCREMENT, "+
                 MyDBSchema.EtudiantTable.MyColumns.nom+" TEXT,"+
                 MyDBSchema.EtudiantTable.MyColumns.prenom+" TEXT,"+
                 MyDBSchema.EtudiantTable.MyColumns.dateNaiss+" TEXT,"+
